@@ -1,0 +1,30 @@
+Errors to FIX.
+
+1. Upon entering a greater amount than the current balance in the add expense function it shows the Warning Dialog and also shows a snackbar the a new expense is added.
+            The error here is that it should not show the new expense added because there is no expense that is added to the expense list.
+
+2. Reference from the Error number 1. Upon launching the app and you haven't set the budget and you add funds. the same thing happens like in the number 1 error where the snackbar
+   should not show because there are no funds that were added.
+
+3. Again Reference from the first two errors. The snackbar shows together witht the warning dialog. It should not show because there is no expense that were added.
+                                Overall the snackbar should not show when there is a warning dialog or the function is not made.
+
+4. None so far
+
+
+Changes MADE.
+1. Removed the expense_list.dart since the function in that file is already present in the home_page.dart
+2. Adjusted the font weight and sizes of the expense list for readability.
+3. Adjusted the padding for the recent transactions card and the expense list items.
+4. Changed the Date and Time format for easier understanding.
+5. Changed the icon for darkmode
+
+
+
+
+Good thing to have
+1. Loading screen before the help and homepage shows.
+2. After clearing the transactions it can be viewed on another page as History
+3. A bar graph that shows your total expenditure for the last month or week.
+4. Undo expense option or delete (this was a suggestion from other people)
+5. An option that creates an excel file that can be exported (another suggestion)
